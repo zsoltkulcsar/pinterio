@@ -1,0 +1,33 @@
+{
+  "name": "pinterio_frontend",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@react-oauth/google": "^0.12.1",
+    "@sanity/client": "^6.27.2",
+    "@sanity/image-url": "^1.1.0",
+    "@tailwindcss/vite": "^4.0.3",
+    "postcss-cli": "^11.0.0",
+    "preact": "^10.25.3",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-icons": "^5.4.0",
+    "react-masonry-css": "^1.0.16",
+    "react-router-dom": "^7.1.5",
+    "react-spinners": "^0.15.0",
+    "uuid": "^11.0.5"
+  },
+  "devDependencies": {
+    "@preact/preset-vite": "^2.9.3",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.5.1",
+    "tailwindcss": "^4.0.3",
+    "vite": "^6.0.5"
+  }
+}
